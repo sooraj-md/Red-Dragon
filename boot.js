@@ -11,13 +11,13 @@
 ║
 ║
 ║
-╠🆁🅴🅳╬🅳🆁🅰🅶🅾🅽╣ 𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮 [`𝗞.𝗣𝗿𝗮𝗯𝗵𝗮𝘀𝗵𝗮´]
+╠🅻︎🅸︎🆂︎🅰︎╬🅱︎🅾︎🆃︎╣ 𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮 [`𝘾𝙃𝙍𝙄𝙎𝙏𝙔 𝙎𝙀𝙍´]
 ║
 ║
 ║
-╠═𝕆𝔹𝔽𝕌𝕊ℂ𝔸𝕋𝔼𝔻═𝔹𝕐═╣ 😎𝙆.𝙋𝙧𝙖𝙗𝙝𝙖𝙨𝙝𝙖❯❯
+╠═𝕆𝔹𝔽𝕌𝕊ℂ𝔸𝕋𝔼𝔻═𝔹𝕐═╣ 🦋 𝘾𝙃𝙍𝙄𝙎𝙏𝙔 𝙎𝙀𝙍❯❯
 ║
-╠═══════(github.com/prabhasha2006)═══════╣
+╠═══════(github.com/christy ser2006)═══════╣
 ║
 ║    ▒ ▒          ▒ ▒ ▒       ▒ ▒ ▒ ▒ ▒  
 ║    ▒    ▒      ▒     ▒          ▒      
@@ -98,7 +98,7 @@
 
 
 require('./settings')
-const { default: KUMUTHUConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
+const { default: CHRISTYConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
 const { state, saveState } = useSingleFileAuthState(`./${sessionName}.json`)
 const pino = require('pino')
 const { Boom } = require('@hapi/boom')
@@ -165,7 +165,7 @@ async function startKUMUTHU() {
     const callerId = json.content[0].attrs['call-creator']
     if (json.content[0].tag == 'offer') {
     let xeonfek = await KUMUTHU.sendContact(callerId, global.owner)
-    KUMUTHU.sendMessage(callerId, { text: `⚠️RED-DRAGON Automatic Block System!\n⚠️Don't Call Bot!\n⚠️Please Ask Or Contact The Owner To Unblock You!`}, { quoted : xeonfek })
+    KUMUTHU.sendMessage(callerId, { text: `🦋LISA-BOT Automatic Block System!\n⚠️Don't Call Bot!\n⚠️Please Ask Or Contact The Owner To Unblock You!`}, { quoted : xeonfek })
     await sleep(8000)
     await KUMUTHU.updateBlockStatus(callerId, "block")
     }
@@ -264,7 +264,7 @@ Time  =  ${xtime} `
     {buttonId: `owner`, buttonText: {displayText: '🙏WELCOME🙏'}, type: 1}
     ]
 let buttonMessage = {
-    image: { url: 'https://i.ibb.co/0h3Sv26/20220805-080104.jpg'},
+    image: { url: 'https://i.imgur.com/qNAmBzn.jpeg'},
 caption: xeonbody,
 footer: `${footer}`,
 buttons,
@@ -290,7 +290,7 @@ Time =  ${xeontime} `
     {buttonId: `owner`, buttonText: {displayText: '👎BYE👎'}, type: 1}
     ]
     let buttonMessage = {
-        image: { url: 'https://i.ibb.co/H4h3mh4/20220805-080200.jpg'},
+        image: { url: 'https://i.imgur.com/qNAmBzn.jpeg'},
     caption: xeonbody,
     footer: `${footer}`,
     buttons,
