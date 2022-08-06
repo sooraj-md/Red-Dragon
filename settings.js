@@ -29,32 +29,32 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owner v card
-global.vcardowner = ['+380944814219'] // owner number
-global.ownername = "😎𝙆.𝙋𝙧𝙖𝙗𝙝𝙖𝙨𝙝𝙖❯❯" // owner name
+global.vcardowner = ['+917034685001'] // owner number
+global.ownername = "🦋 ⃝⃪ ꪶᴄʜͥ͢ʀɪsͣᴛᷟ͢ʏꫂsᴇ͢ʀ🦋⃝⃪⭒" // owner name
 global.ytname = "" // yt chanel name
 global.socialm = "GitHub: prabhasha2006" // github or insta name
 global.location = "India, Mizoram, Aizawl" // location
 
 //bot body 
-global.alivepic = `https://i.ibb.co/cyyCjN7/20220803-081426.png` // alive picture \\ use "https://ibb.com" to upload photos. < 1 MB
+global.alivepic = `https://i.imgur.com/qNAmBzn.jpeg` // alive picture \\ use "https://ibb.com" to upload photos. < 1 MB
 
 global.dragonchat = "false"  // chat bot  "true" / "false" (200 auto replies in this)
 global.callblock = "false" // call block "true" / "false" (CALL ගන්න අය block කිරීමට "true")
 global.antibad = "false" // To remove bad word senders
 
-global.owner = ['+380944814219']
-global.ownertag = '+380944814219' //your tag number
-global.botname = '𝙍𝙀𝘿╺ 𝘿𝙍𝘼𝙂𝙊𝙉 - 𝘉𝘖𝘛' //ur bot name
-global.packname = "Bot Sticker" // sticker packname
-global.author = "𝙍𝙀𝘿╺ 𝘿𝙍𝘼𝙂𝙊𝙉" // sticker author
+global.owner = ['+917034685001']
+global.ownertag = '+917034685001' //your tag number
+global.botname = '𝙇𝙄𝙎𝘼 - 𝘉𝘖𝘛' //ur bot name
+global.packname = "💮" // sticker packname
+global.author = "🦋 ⃝⃪ ꪶᴄʜͥ͢ʀɪsͣᴛᷟ͢ʏꫂsᴇ͢ʀ🦋⃝⃪⭒" // sticker author
 global.dragonemoji = '🧩' // Menu emoji
-global.footer = '[ ◉ ʀᴇᴅ-ᴅʀᴀɢᴏɴ-ᴍᴅ ]' //
+global.footer = '[ ◉ ʟɪsᴀ-ᴍᴅ ]' //
 
 global.button = '☰ GITHUB ☰' //Costomize A Button Name In Alive Message
 global.btnurl = 'https://github.com/prabhasha2006' //Change Your Button's URL
 
 //database
-global.premium = ['+380944814219'] //ur premium numbers
+global.premium = ['+917034685001'] //ur premium numbers
 
 //other
 global.sessionName = 'session'
